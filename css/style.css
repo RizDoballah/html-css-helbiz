@@ -89,6 +89,7 @@ header {
 }
 
 /* main */
+/* Section_Bike */
 .bike {
   margin-top: 50px;
   text-align: center;
@@ -121,7 +122,42 @@ header {
   width: 30%;
   margin-top: 20px;
 }
+/* Section_Iphone */
+.iphone {
+  position: relative;
+  margin-top: 80px;
+}
+.iphone h2 {
+  margin-top: 70px;
+  font-size: 3.4em;
+  margin-left: 140px;
+}
+.iphone h4 {
+  width: 20%;
+  margin-left: 400px;
+  font-size: 2em;
+  margin-top: 80px;
+}
+.iphone p {
+  width: 50%;
+  margin-left: 400px;
+  font-size: 1.8em;
+  line-height: 50px;
+}
+.background {
+  height: 500px;
+  background-image: url(../img/HelbizBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 0 left 25%;
 
+}
+.img_iphone {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  height: 650px;
+}
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
@@ -149,6 +185,20 @@ header {
 .bike {
   margin: 50px 60px;
   }
+  .iphone h2 {
+  display: none;
+  }
+  .iphone h4 {
+  display: none;
+  }
+  .iphone p {
+    display: none;
+  }
+  .img_iphone {
+    position: absolute;
+    left: 25%;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -188,5 +238,23 @@ header {
   }
   .img_bike {
     width: 35%;
+  }
+  .background {
+    height: 400px;
+
+  }
+  .iphone h2 {
+  display: none;
+  }
+  .iphone h4 {
+  display: none;
+  }
+  .iphone p {
+    display: none;
+  }
+  .img_iphone {
+    position: absolute;
+    left: 30%;
+    height: 550px;
   }
 }
